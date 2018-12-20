@@ -1,0 +1,5 @@
+export const SET_NAME = "SET_NAME";
+export const SET_QUESTION_NUMBER = "SET_QUESTION_NUMBER";
+export const SET_NUMBER_CORRECT = "SET_NUMBER_CORRECT";
+export const SET_RANGE = "SET_RANGE";
+export const SET_FUNCTIONS = "SET_FUNCTIONS";

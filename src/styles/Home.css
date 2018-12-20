@@ -1,14 +1,26 @@
 .Home {
   text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
 }
 
 .home-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.label {
+  font-size: calc(8px + 1vmin);
+  padding-right: 3px;
+  color: white;
+}
+
+.submit-button {
+  border-radius: 2px;
+  padding: 4px;
+  margin: 5px;
 }
