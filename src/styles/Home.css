@@ -1,14 +1,61 @@
 .Home {
   text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
 }
 
 .home-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.label {
+  font-size: calc(5px + 2vmin);
+  padding-right: 3px;
+  color: white;
+}
+
+.submit-button {
+  border-radius: 2px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.button-text {
+  font-size: calc(5px + 2vmin);
+  padding: 0;
+  margin: 0;
+}
+
+.radio-button-txt {
+  font-size: calc(8px + 1vmin);
+  padding-left: 3px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.radio-button-row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.radio-button-div {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 10px
+}
+
+.radio-button-label-txt {
+  font-size: calc(8px + 2vmin);
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
 }
