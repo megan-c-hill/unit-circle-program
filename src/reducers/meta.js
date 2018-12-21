@@ -1,13 +1,11 @@
-import {POSITIVE_DEGREES} from "../constants/ranges";
-import {COS_AND_SIN} from "../constants/functions";
 import {SET_FUNCTIONS, SET_NAME, SET_NUMBER_CORRECT, SET_QUESTION_NUMBER, SET_RANGE} from "../constants/action-types";
 
 const initialState = {
     name: "",
     questionNumber: 1,
     numberCorrect: 0,
-    range: POSITIVE_DEGREES,
-    functions: COS_AND_SIN
+    range: null,
+    functions: null
 };
 
 const setName = (state, name) => {
