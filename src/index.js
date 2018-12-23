@@ -6,13 +6,20 @@ import Home from './pages/Home';
 import * as serviceWorker from './utils/serviceWorker';
 import { createStore } from "redux";
 import rootReducer from "../src/reducers/meta";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Question from "./pages/Question";
 
 const store = createStore(rootReducer);
 
 render(
+    <BrowserRouter>
     <Provider store={store}>
-        <Home />
-    </Provider>,
+        <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/question/:number' component={Question}/>
+        </Switch>
+    </Provider>
+    </BrowserRouter>,
     document.getElementById("root")
 );
 

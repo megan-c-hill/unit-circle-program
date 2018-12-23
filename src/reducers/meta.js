@@ -9,7 +9,7 @@ import {
 
 const initialState = {
     name: "",
-    questionNumber: 1,
+    questionNumber: 0,
     numberCorrect: 0,
     range: null,
     functions: null,

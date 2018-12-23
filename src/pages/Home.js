@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import '../styles/Home.css';
-import {setFunctions, setHomePageFormComplete, setName, setRange} from "../actions/meta";
+import {setFunctions, setHomePageFormComplete, setName, setQuestionNumber, setRange} from "../actions/meta";
 import {NEGATIVE_DEGREES, NEGATIVE_RADIANS, POSITIVE_DEGREES, POSITIVE_RADIANS} from "../constants/ranges";
 import {ALL_SIX_FUNC, SIN_AND_COS, SIN_COS_AND_TAN} from "../constants/functions";
 
@@ -18,7 +18,7 @@ const mapStateToProps = state => {
 
 function mapDispatchToProps(dispatch) {
     return {
-        goToNextPage: () => console.log('next page'),
+        setQuestionNumber: () => dispatch(setQuestionNumber(1)),
         setName: name => dispatch(setName(name)),
         setRange: range => dispatch(setRange(range)),
         setFunctions: functions => dispatch(setFunctions(functions)),
@@ -126,7 +126,7 @@ class connectedHome extends Component {
                         </div>
                     </div>
                 </div>
-                { !this.props.homePageFormComplete ?
+                {!this.props.homePageFormComplete ?
                     <p className="error-text">
                         {'You have not filled out all required fields'}
                     </p>
@@ -136,10 +136,11 @@ class connectedHome extends Component {
                     console.log('onSubmit');
                     if (this.props.allFieldsComplete) {
                         this.props.setHomePageFormComplete(true);
-                        this.props.goToNextPage()
+                        this.props.setQuestionNumber();
+                        this.props.history.push('/question/1');
                     } else {
                         this.props.setHomePageFormComplete(false);
-                        this.props.showErrorMessage()
+                        this.props.showErrorMessage();
                     }
                 }}>
                     <p className="button-text">SAVE</p>
