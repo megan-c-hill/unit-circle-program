@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import '../styles/Home.css';
-import {setFunctions, setHomePageFormComplete, setName, setRange} from "../redux/meta-actions";
+import {setFunctions, setHistory, setHomePageFormComplete, setName, setRange} from "../redux/meta-actions";
 import {allRanges} from "../constants/ranges";
 import {allFunctions} from "../constants/functions";
 import RadioButtonGroup from "../components/RadioButtonGroup";
+import DefaultButton from "../components/DefaultButton";
 
 const mapStateToProps = (state) => ({
     allFieldsComplete: state.functions && state.name && state.name !== '' && state.range,
@@ -15,6 +16,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
+    setHistory: history => dispatch(setHistory(history)),
     setName: name => dispatch(setName(name)),
     setRange: range => dispatch(setRange(range)),
     setFunctions: functions => dispatch(setFunctions(functions)),
@@ -22,7 +24,12 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 class connectedHome extends Component {
+    componentDidMount() {
+        this.props.setHistory(this.props.history);
+    }
+
     render() {
+        console.log('Home', this.props);
         return (
             <main className="Home">
                 <h1 className="home-header">
@@ -58,16 +65,17 @@ class connectedHome extends Component {
                     </p>
                     : null
                 }
-                <button className="submit-button" onClick={() => {
-                    if (this.props.allFieldsComplete) {
-                        this.props.setHomePageFormComplete(true);
-                        this.props.history.push('/question');
-                    } else {
-                        this.props.setHomePageFormComplete(false);
-                    }
-                }}>
-                    <p className="button-text">SAVE</p>
-                </button>
+                <DefaultButton
+                    action={() => {
+                        if (this.props.allFieldsComplete) {
+                            this.props.setHomePageFormComplete(true);
+                            this.props.history.push('/question');
+                        } else {
+                            this.props.setHomePageFormComplete(false);
+                        }
+                    }}
+                    text={'SAVE'}
+                />
             </main>
         );
     }

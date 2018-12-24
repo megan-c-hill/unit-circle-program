@@ -8,6 +8,7 @@ import { createStore } from "redux";
 import rootReducer from "./redux/meta-reducer";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Question from "./pages/Question";
+import Result from "./pages/Result";
 
 const store = createStore(rootReducer);
 
@@ -17,6 +18,7 @@ render(
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/question' component={Question}/>
+            <Route exact path='/result' component={Result}/>
         </Switch>
     </Provider>
     </BrowserRouter>,

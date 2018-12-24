@@ -8,16 +8,31 @@ const mapStateToProps = (state, ownProps) => ({
     checked: ownProps.checked
 });
 
+const radioButtonRow = {
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-start'
+};
+
+const radioButtonText = {
+    fontSize: 'calc(8px + 1vmin)',
+    paddingLeft: 3,
+    color: 'white',
+    marginTop: 0,
+    marginBottom: 0
+};
+
 class connectedRadioButtonRow extends Component {
     render() {
         return (
-            <div className="radio-button-row">
+            <div style={radioButtonRow}>
                 <input type="radio"
                        value={this.props.value}
                        checked={this.props.checked}
                        onChange={(event) => this.props.action(event.target.value)}
                 />
-                <label className="radio-button-txt">
+                <label style={radioButtonText}>
                     {this.props.value}
                 </label>
             </div>

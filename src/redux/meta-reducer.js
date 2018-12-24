@@ -1,5 +1,5 @@
 import {
-    SET_FUNCTIONS,
+    SET_FUNCTIONS, SET_HISTORY,
     SET_HOME_PAGE_FORM_COMPLETE,
     SET_NAME,
     SET_NUMBER_CORRECT,
@@ -8,6 +8,7 @@ import {
 } from "../constants/action-types";
 
 const initialState = {
+    history: null,
     name: "",
     questionNumber: 1,
     numberCorrect: 0,
@@ -41,14 +42,20 @@ const setFunctions = (state, functions) => ({
     functions
 });
 
-const setHomePageFormComplege = (state, homePageFormComplete) => ({
+const setHomePageFormComplete = (state, homePageFormComplete) => ({
     ...state,
     homePageFormComplete
 });
 
+const setHistory = (state, history) => ({
+    ...state,
+    history
+});
+
 const reducerMap = {
     [SET_NAME]: setName,
-    [SET_HOME_PAGE_FORM_COMPLETE]: setHomePageFormComplege,
+    [SET_HISTORY]: setHistory,
+    [SET_HOME_PAGE_FORM_COMPLETE]: setHomePageFormComplete,
     [SET_QUESTION_NUMBER]: setQuestionNumber,
     [SET_NUMBER_CORRECT]: setNumberCorrect,
     [SET_RANGE]: setRange,

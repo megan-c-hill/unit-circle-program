@@ -1,5 +1,6 @@
 import {
     SET_FUNCTIONS,
+    SET_HISTORY,
     SET_HOME_PAGE_FORM_COMPLETE,
     SET_NAME,
     SET_NUMBER_CORRECT,
@@ -35,4 +36,9 @@ export const setFunctions = (functions) => ({
 export const setHomePageFormComplete = (homePageFormComplete) => ({
     data: homePageFormComplete,
     type: SET_HOME_PAGE_FORM_COMPLETE
+});
+
+export const setHistory = (history) => ({
+    data: history,
+    type: SET_HISTORY
 });

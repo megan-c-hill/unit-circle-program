@@ -10,11 +10,25 @@ const mapStateToProps = (state, ownProps) => ({
     values: ownProps.values
 });
 
+const radioButtonDiv = {
+    width: '80%',
+    paddingLeft: '10%',
+    paddingTop: 10
+};
+
+const radioButtonLabelText =  {
+    fontSize: 'calc(8px + 2vmin)',
+    color: 'white',
+    marginTop: 0,
+    marginBottom: 0,
+    textAlign: 'left'
+};
+
 class connectedRadioButtonGroup extends Component {
     render() {
         return (
-            <div className="radio-button-div">
-                <p className="radio-button-label-txt">{`${this.props.headerText}:`}</p>
+            <div style={radioButtonDiv}>
+                <p style={radioButtonLabelText}>{`${this.props.headerText}:`}</p>
                 {this.props.values.map((value) =>
                     <RadioButtonRow
                         key={`key-${value}`}
