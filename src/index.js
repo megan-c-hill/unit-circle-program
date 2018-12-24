@@ -5,7 +5,7 @@ import './styles/index.css';
 import Home from './pages/Home';
 import * as serviceWorker from './utils/serviceWorker';
 import { createStore } from "redux";
-import rootReducer from "../src/reducers/meta";
+import rootReducer from "./redux/meta-reducer";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Question from "./pages/Question";
 
@@ -16,7 +16,7 @@ render(
     <Provider store={store}>
         <Switch>
             <Route exact path='/' component={Home}/>
-            <Route exact path='/question/:number' component={Question}/>
+            <Route exact path='/question' component={Question}/>
         </Switch>
     </Provider>
     </BrowserRouter>,

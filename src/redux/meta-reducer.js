@@ -9,20 +9,17 @@ import {
 
 const initialState = {
     name: "",
-    questionNumber: 0,
+    questionNumber: 1,
     numberCorrect: 0,
     range: null,
     functions: null,
     homePageFormComplete: true
 };
 
-const setName = (state, name) => {
-    console.log('name', name);
-    return {
+const setName = (state, name) => ({
     ...state,
-        name
-    }
-};
+    name
+});
 
 const setQuestionNumber = (state, questionNumber) => ({
     ...state,
@@ -59,7 +56,7 @@ const reducerMap = {
 };
 
 function rootReducer(state = initialState, {type, data}) {
-    if(reducerMap[type]) {
+    if (reducerMap[type]) {
         return reducerMap[type](state, data);
     }
 
