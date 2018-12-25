@@ -29,12 +29,14 @@ class connectedHome extends Component {
     }
 
     render() {
-        console.log('Home', this.props);
         return (
             <main className="Home">
-                <h1 className="home-header">
-                    Home Page
+                <div>
+                <h1>
+                    Unit Circle Quiz
                 </h1>
+                <h3>Mrs. Hill's Algebra II Class</h3>
+                </div>
                 <div>
                     <div>
                         <label className="label">Name:</label>
@@ -63,7 +65,7 @@ class connectedHome extends Component {
                     <p className="error-text">
                         {'You have not filled out all required fields'}
                     </p>
-                    : null
+                    : <p className="space-holder">{'     '}</p>
                 }
                 <DefaultButton
                     action={() => {
@@ -74,7 +76,7 @@ class connectedHome extends Component {
                             this.props.setHomePageFormComplete(false);
                         }
                     }}
-                    text={'SAVE'}
+                    text={'Start Quiz'}
                 />
             </main>
         );

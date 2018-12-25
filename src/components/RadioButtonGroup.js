@@ -11,7 +11,7 @@ const mapStateToProps = (state, ownProps) => ({
 });
 
 const radioButtonDiv = {
-    width: '80%',
+    width: '100%',
     paddingLeft: '10%',
     paddingTop: 10
 };

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a16bee8-9ecb-4f0a-a513-7dc5371b72a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DefaultButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RadioButtonGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RadioButtonGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RadioButtonRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RadioButtonRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/meta-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/meta-actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/meta-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/meta-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +26,8 @@
           <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+                <state relative-caret-position="166">
+                  <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -41,11 +35,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Home.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/styles/Home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+                <state relative-caret-position="180">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DefaultButton.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Result.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -62,6 +80,27 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/styles/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -69,8 +108,8 @@
           <file leaf-file-name="RadioButtonGroup.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/RadioButtonGroup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+                <state relative-caret-position="255">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -110,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/actions/meta.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/reducers/meta.js" />
-        <option value="$PROJECT_DIR$/src/styles/index.css" />
         <option value="$PROJECT_DIR$/src/components/radioButtonRow.js" />
         <option value="$PROJECT_DIR$/src/components/radioButtonGroup.js" />
         <option value="$PROJECT_DIR$/src/constants/functions.js" />
@@ -119,13 +157,14 @@
         <option value="$PROJECT_DIR$/src/constants/action-types.js" />
         <option value="$PROJECT_DIR$/src/redux/meta-reducer.js" />
         <option value="$PROJECT_DIR$/src/redux/meta-actions.js" />
-        <option value="$PROJECT_DIR$/src/pages/Home.js" />
         <option value="$PROJECT_DIR$/src/pages/Question.js" />
-        <option value="$PROJECT_DIR$/src/pages/Result.js" />
-        <option value="$PROJECT_DIR$/src/components/DefaultButton.js" />
         <option value="$PROJECT_DIR$/src/components/RadioButtonRow.js" />
-        <option value="$PROJECT_DIR$/src/styles/Home.css" />
+        <option value="$PROJECT_DIR$/src/pages/Result.js" />
         <option value="$PROJECT_DIR$/src/components/RadioButtonGroup.js" />
+        <option value="$PROJECT_DIR$/src/styles/Home.css" />
+        <option value="$PROJECT_DIR$/src/components/DefaultButton.js" />
+        <option value="$PROJECT_DIR$/src/styles/index.css" />
+        <option value="$PROJECT_DIR$/src/pages/Home.js" />
       </list>
     </option>
   </component>
@@ -205,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Question&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;Home&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Home.js&#10;Qu&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;meta-re&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/meta-reducer.js&#10;ranges&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/ranges.js&#10;meta&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers/meta.js&#10;reducers&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers&#10;functions&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/functions.js" />
+    <property name="SearchEverywhereHistoryKey" value="index.css&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/styles/index.css&#10;Resul&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Result.js&#10;Ques&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;index.js&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/index.js&#10;Button&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/components/DefaultButton.js&#10;Question&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;Home&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Home.js&#10;Qu&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;meta-re&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/meta-reducer.js&#10;ranges&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/ranges.js&#10;meta&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers/meta.js&#10;reducers&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers&#10;functions&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/functions.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -311,7 +350,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545266634848</updated>
       <workItem from="1545266637818" duration="786000" />
-      <workItem from="1545610242864" duration="5434000" />
+      <workItem from="1545610242864" duration="6842000" />
     </task>
     <servers />
   </component>
@@ -330,12 +369,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23468000" />
+    <option name="totallyTimeSpent" value="24876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -354,6 +394,26 @@
       <window_info anchor="bottom" id="Cvs" order="17" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="13" weight="0.32978722" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -566,13 +626,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/src/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/ranges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -584,16 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,40 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Question.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -671,19 +684,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Home.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RadioButtonGroup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

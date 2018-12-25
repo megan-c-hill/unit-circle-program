@@ -4,12 +4,13 @@ import '../styles/Home.css';
 
 
 const submitButtonStyle = {
-    borderRadius: '2px',
+    borderRadius: 15,
     padding: '20px',
     margin: '20px'
 };
 
 const buttonText = {
+    color: '#282c34',
     fontSize: 'calc(5px + 2vmin)',
     padding: 0,
     margin: 0
