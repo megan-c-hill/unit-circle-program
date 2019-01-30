@@ -5,7 +5,7 @@ import {
     SET_NUMBER_CORRECT,
     SET_QUESTION_NUMBER,
     SET_RANGE
-} from "../constants/action-types";
+} from "./action-types";
 
 const initialState = {
     history: null,

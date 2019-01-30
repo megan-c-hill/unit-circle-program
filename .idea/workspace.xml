@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a16bee8-9ecb-4f0a-a513-7dc5371b72a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/DefaultButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RadioButtonGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RadioButtonGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/redux/action-types.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/redux/meta-actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/meta-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/meta-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/meta-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/meta-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,96 +27,71 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+          <file leaf-file-name="meta-actions.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/redux/meta-actions.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="166">
-                  <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+                <state relative-caret-position="252">
+                  <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="meta-reducer.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
                   <folding>
-                    <element signature="e#0#39#0" expanded="true" />
+                    <element signature="e#0#28#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/Home.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DefaultButton.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Result.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="meta-reducer.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/redux/meta-reducer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#173#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-                </state>
-              </provider>
+          <file leaf-file-name="action-types.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/redux/action-types.test.js">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="RadioButtonGroup.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/RadioButtonGroup.js">
+          <file leaf-file-name="meta-actions.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/redux/meta-actions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
                   <folding>
-                    <element signature="e#0#39#0" expanded="true" />
+                    <element signature="e#0#179#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="meta-reducer.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/redux/meta-reducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="action-types.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/redux/action-types.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -144,7 +123,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/App.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/actions/meta.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -155,22 +133,34 @@
         <option value="$PROJECT_DIR$/src/constants/ranges.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/constants/action-types.js" />
-        <option value="$PROJECT_DIR$/src/redux/meta-reducer.js" />
         <option value="$PROJECT_DIR$/src/redux/meta-actions.js" />
-        <option value="$PROJECT_DIR$/src/pages/Question.js" />
         <option value="$PROJECT_DIR$/src/components/RadioButtonRow.js" />
-        <option value="$PROJECT_DIR$/src/pages/Result.js" />
         <option value="$PROJECT_DIR$/src/components/RadioButtonGroup.js" />
         <option value="$PROJECT_DIR$/src/styles/Home.css" />
-        <option value="$PROJECT_DIR$/src/components/DefaultButton.js" />
         <option value="$PROJECT_DIR$/src/styles/index.css" />
         <option value="$PROJECT_DIR$/src/pages/Home.js" />
+        <option value="$PROJECT_DIR$/src/pages/Question.js" />
+        <option value="$PROJECT_DIR$/src/pages/Result.js" />
+        <option value="$PROJECT_DIR$/src/components/DefaultButton.js" />
+        <option value="$PROJECT_DIR$/src/tests/redux/meta-reducer.js" />
+        <option value="$PROJECT_DIR$/src/tests/redux/action-types.test.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/tests/redux/meta-actions.test.js" />
+        <option value="$PROJECT_DIR$/src/redux/meta-reducer.js" />
+        <option value="$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -211,31 +201,14 @@
               <item name="unit-circle-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="unit-circle-program" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unit-circle-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="unit-circle-program" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unit-circle-program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unit-circle-program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unit-circle-program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unit-circle-program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unit-circle-program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unit-circle-program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="index.css&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/styles/index.css&#10;Resul&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Result.js&#10;Ques&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;index.js&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/index.js&#10;Button&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/components/DefaultButton.js&#10;Question&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;Home&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Home.js&#10;Qu&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;meta-re&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/meta-reducer.js&#10;ranges&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/ranges.js&#10;meta&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers/meta.js&#10;reducers&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers&#10;functions&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/functions.js" />
+    <property name="SearchEverywhereHistoryKey" value="packag&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/package.json&#10;action-typ&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/action-types.js&#10;meta-red&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/meta-reducer.js&#10;meta&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/tests/redux/meta-reducer.test.js&#10;index.css&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/styles/index.css&#10;Resul&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Result.js&#10;Ques&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;index.js&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/index.js&#10;Button&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/components/DefaultButton.js&#10;Question&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;Home&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Home.js&#10;Qu&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/pages/Question.js&#10;meta-re&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/redux/meta-reducer.js&#10;ranges&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/ranges.js&#10;reducers&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/reducers&#10;functions&#9;FILE&#9;file:///Users/mhill/WebstormProjects/unit-circle-program/src/constants/functions.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -256,7 +229,8 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -279,63 +253,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.renders without crashing (3)">
-    <configuration name="renders without crashing (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.meta-reducer">
+    <configuration name="meta-actions.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__tests__/pages/Home.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/redux/meta-actions.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="meta-actions.js" />
       </test-names>
     </configuration>
-    <configuration name="renders without crashing (2)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="meta-actions.js.should dispatch an action when setName is called" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/pages/Home.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/redux/meta-actions.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="meta-actions.js" />
+        <test-name value="should dispatch an action when setName is called" />
       </test-names>
     </configuration>
-    <configuration name="renders without crashing (3)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="meta-reducer" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/tests/pages/Home.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="meta-reducer" />
       </test-names>
     </configuration>
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="meta-reducer.should have default values" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/pages/Home.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="meta-reducer" />
+        <test-name value="should have default values" />
       </test-names>
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
     </configuration>
     <list>
-      <item itemvalue="Jest.renders without crashing" />
-      <item itemvalue="Jest.renders without crashing (1)" />
-      <item itemvalue="Jest.renders without crashing (2)" />
-      <item itemvalue="Jest.renders without crashing (3)" />
+      <item itemvalue="Jest.meta-actions.js.should dispatch an action when setName is called" />
+      <item itemvalue="Jest.meta-actions.js" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.meta-reducer.should have default values" />
+      <item itemvalue="Jest.meta-reducer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.renders without crashing (3)" />
-        <item itemvalue="Jest.renders without crashing (2)" />
-        <item itemvalue="Jest.renders without crashing (1)" />
-        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="Jest.meta-reducer" />
+        <item itemvalue="Jest.meta-reducer.should have default values" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.meta-actions.js" />
+        <item itemvalue="Jest.meta-actions.js.should dispatch an action when setName is called" />
       </list>
     </recent_temporary>
   </component>
@@ -350,37 +337,57 @@
       <option name="presentableId" value="Default" />
       <updated>1545266634848</updated>
       <workItem from="1545266637818" duration="786000" />
-      <workItem from="1545610242864" duration="6842000" />
+      <workItem from="1545610242864" duration="9899000" />
+      <workItem from="1546849674425" duration="56000" />
+      <workItem from="1547695485516" duration="114000" />
+      <workItem from="1548728845136" duration="3795000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="renders_without_crashing - 2018.12.19 at 18h 52m 32s.xml">
-      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="meta-actions_js_should_dispatch_an_action_when_setName_is_called - 2018.12.25 at 14h 42m 32s.xml">
+      <configuration name="meta-actions.js.should dispatch an action when setName is called" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="renders_without_crashing_(1) - 2018.12.19 at 18h 53m 18s.xml">
-      <configuration name="renders without crashing (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="meta-actions_js - 2018.12.27 at 10h 25m 05s.xml">
+      <configuration name="meta-actions.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="renders_without_crashing_(2) - 2018.12.19 at 18h 54m 47s.xml">
-      <configuration name="renders without crashing (2)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="meta-actions_js - 2018.12.27 at 10h 26m 35s.xml">
+      <configuration name="meta-actions.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="renders_without_crashing_(3) - 2018.12.19 at 18h 57m 29s.xml">
-      <configuration name="renders without crashing (3)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="meta-actions_js - 2019.01.30 at 09h 45m 36s.xml">
+      <configuration name="meta-actions.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer_should_have_default_values - 2019.01.30 at 10h 20m 53s.xml">
+      <configuration name="meta-reducer.should have default values" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer - 2019.01.30 at 10h 43m 44s.xml">
+      <configuration name="meta-reducer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer - 2019.01.30 at 10h 46m 06s.xml">
+      <configuration name="meta-reducer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer - 2019.01.30 at 10h 51m 48s.xml">
+      <configuration name="meta-reducer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer - 2019.01.30 at 10h 52m 39s.xml">
+      <configuration name="meta-reducer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="meta-reducer - 2019.01.30 at 10h 54m 34s.xml">
+      <configuration name="meta-reducer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24876000" />
+    <option name="totallyTimeSpent" value="31898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="15" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="15" weight="0.32900944" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32900944" />
@@ -399,19 +406,19 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32978722" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -421,26 +428,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/pages/Home.test.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/range.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -460,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,22 +561,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/pages/Home.test.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -640,57 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/action-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/meta-actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Question.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/meta-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RadioButtonRow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,19 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +629,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Result.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="390">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DefaultButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -732,19 +668,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/redux/action-types.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/meta-actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/tests/redux/meta-actions.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="252">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/meta-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/redux/meta-reducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
